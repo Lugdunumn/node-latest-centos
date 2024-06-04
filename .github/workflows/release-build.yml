@@ -93,5 +93,5 @@ jobs:
         commit: master
         replacesArtifacts: true
         prerelease: ${{ env.PRE_RELEASE }}
-        token: ${{ secrets.workflow_token }}
+        token: ${{ secrets.GITHUB_TOKEN }}
         artifacts: tar/*
